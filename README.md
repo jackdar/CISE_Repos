@@ -1,6 +1,6 @@
 <h1 align="center">ENSE701 – Contemporary Issues in Software Engineering</h1>
 <div align="center">
-  <i>A repository of completed worksheets for AUT's ENSE701 lab tutorials.</i>\
+  <i>A repository of completed worksheets for AUT's ENSE701 lab tutorials.</i>
   <br/>
   <br/>
   <p>
@@ -30,12 +30,12 @@
 7. Understand what NEST is and how to use the Nest CLI to create a project.
 
 ## Tools 🧰
-- Visual Studio Code
-- Git
-- GitHub
-- npm
-- NodeJS
-- NestJS
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/join/)
+- [npm](https://www.npmjs.com/)
+- [NodeJS](https://nodejs.org/)
+- [NestJS](https://nestjs.com/)
 
 ## Video Tutorials 📹
 
