@@ -1,6 +1,7 @@
 <h1 align="center">ENSE701 – Contemporary Issues in Software Engineering</h1>
 <div align="center">
   <i>A repository of completed worksheets for AUT's ENSE701 lab tutorials.</i>
+  <br/>
   <p>
     <b>Student Name:</b> Jack Darlington<br/>
     <b>Student ID:</b> 19082592
