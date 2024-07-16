@@ -17,6 +17,7 @@
   - [Video Tutorials 📹](#video-tutorials-)
   - [License and Disclaimer 📄](#license-and-disclaimer-)
 
+<br/>
 
 ## Worksheets 👨‍💻
 
@@ -29,6 +30,8 @@
 6. Work with Git and GitHub from VS Code locally (make sure you know what is happening in Git!)
 7. Understand what NEST is and how to use the Nest CLI to create a project.
 
+<br/>
+
 ## Tools 🧰
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
@@ -37,7 +40,11 @@
 - [NodeJS](https://nodejs.org/)
 - [NestJS](https://nestjs.com/)
 
+<br/>
+
 ## Video Tutorials 📹
+
+<br/>
 
 ## License and Disclaimer 📄
 
