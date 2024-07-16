@@ -10,7 +10,7 @@
 </div>
 <br/>
 
-### Contents:
+### Contents
   - [Worksheets 👨‍💻](#worksheets-)
       - [Worksheet 1](#worksheet-1-)
   - [Tools 🧰](#tools-)
