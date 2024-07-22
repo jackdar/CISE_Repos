@@ -1,4 +1,4 @@
-<h1 align="center">ENSE701 – Contemporary Issues in Software Engineering</h1>
+![image](https://github.com/user-attachments/assets/42c936fa-afb5-4ed1-81f1-6c76911290df)<h1 align="center">ENSE701 – Contemporary Issues in Software Engineering</h1>
 <div align="center">
   <i>A repository of completed worksheets for AUT's ENSE701 lab tutorials.</i>
   <br/>
@@ -13,6 +13,7 @@
 ### Contents
   - [Worksheets 👨‍💻](#worksheets-)
       - [Worksheet 1](#worksheet-1-)
+      - [Worksheet 2](#worksheet-2-)
   - [Tools 🧰](#tools-)
   - [Video Tutorials 📹](#video-tutorials-)
   - [License and Disclaimer 📄](#license-and-disclaimer-)
@@ -29,6 +30,14 @@
 5. Merge pull requests 
 6. Work with Git and GitHub from VS Code locally (make sure you know what is happening in Git!)
 7. Understand what NEST is and how to use the Nest CLI to create a project.
+
+#### Worksheet 2 – APIs with Nest JS and Node, Jest, GitHub Actions
+1. Learn about TypeScript ([https://www.typescriptlang.org/docs/handbook/intro.html](https://www.typescriptlang.org/docs/handbook/intro.html)
+2. Create a backend Nest web server running locally on Node.js
+3. Create some RESTful API end points to Read (CRUD) data in the backend (from a database eventually)
+4. Create a React front-end
+5. Run some simple jest tests for the front end
+6. Automate the tests running for a pull request using GitHub actions
 
 <br/>
 
