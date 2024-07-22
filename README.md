@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/42c936fa-afb5-4ed1-81f1-6c76911290df)<h1 align="center">ENSE701 – Contemporary Issues in Software Engineering</h1>
+<h1 align="center">ENSE701 – Contemporary Issues in Software Engineering</h1>
 <div align="center">
   <i>A repository of completed worksheets for AUT's ENSE701 lab tutorials.</i>
   <br/>
