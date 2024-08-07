@@ -51,10 +51,6 @@
 
 <br/>
 
-## Video Tutorials 📹
-
-<br/>
-
 ## License and Disclaimer 📄
 
 This is my own work. It is not copied or derived from any other work.
