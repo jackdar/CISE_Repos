@@ -13,7 +13,7 @@ function UpdateBookInfo() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch(`/api/books/${id}`);
+                const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}`);
                 if (response.ok) {
                     const data = await response.json();
                     setBook(data);
@@ -38,7 +38,7 @@ function UpdateBookInfo() {
     const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         try {
-            const response = await fetch(`/api/books/${id}`, {
+            const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -67,7 +67,7 @@ function UpdateBookInfo() {
                     </div>
                     <div className="col-md-8 m-auto">
                         <h1 className="display-4 text-center">Edit Book</h1>
-                        <p className="lead text-center">Update Book's Info</p>
+                        <p className="lead text-center">Update Book&quot;s Info</p>
                     </div>
                 </div>
 

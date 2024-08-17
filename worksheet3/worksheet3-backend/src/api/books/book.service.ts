@@ -32,4 +32,3 @@ export class BookService {
         return await this.bookModel.findByIdAndDelete(id);
     }
 }
-

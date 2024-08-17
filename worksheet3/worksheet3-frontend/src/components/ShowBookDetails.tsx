@@ -10,12 +10,12 @@ function ShowBookDetails() {
 
     const id = useParams<{ id: string }>().id;
 
-    const navigate = useRouter();
+    const router = useRouter();
 
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch(`/api/books/${id}`);
+                const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}`);
                 if (response.ok) {
                     const data = await response.json();
                     setBook(data);
@@ -31,11 +31,11 @@ function ShowBookDetails() {
 
     const onDeleteClick = async (id: string) => {
         try {
-            const response = await fetch(`/api/books/${id}`, {
+            const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL + `/api/books/${id}`, {
                 method: 'DELETE'
             });
             if (response.ok) {
-                navigate.push('/');
+                router.push('/');
             } else {
                 throw new Error('Failed to delete book');
             }
@@ -70,7 +70,7 @@ function ShowBookDetails() {
                     </tr>
                     <tr>
                         <th scope='row'>5</th>
-                        <td><Date></Date></td>
+                        <td>Date</td>
                         <td>{book.published_date?.toString()}</td>
                     </tr>
                     <tr>
@@ -99,9 +99,9 @@ function ShowBookDetails() {
                     </div>
                     <br />
                     <div className="col-md-8 m-auto">
-                        <h1 className="display-4 text-center">Book's Record</h1>
+                        <h1 className="display-4 text-center">Book&quot;s Record</h1>
                         <p className="lead text-center">
-                            View Book's Info
+                            View Book&quot;s Info
                         </p>
                         <hr />
                         <br />

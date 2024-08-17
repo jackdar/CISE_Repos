@@ -1,10 +1,12 @@
+'use client'
+
 import React, { useState } from 'react';
 import { Book, DefaultEmptyBook } from './Book';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 function CreateBookComponent() {
-    const navigate = useRouter();
+    const router = useRouter();
 
     const [book, setBook] = useState<Book>(DefaultEmptyBook);
 
@@ -16,7 +18,7 @@ function CreateBookComponent() {
         event.preventDefault();
         console.log(book);
         try {
-            const response = await fetch('/api/books', {
+            const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL + '/api/books', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -26,7 +28,7 @@ function CreateBookComponent() {
             if (response.ok) {
                 console.log(response);
                 setBook(DefaultEmptyBook);
-                navigate.push('/');
+                router.push('/');
             } else {
                 throw new Error('Failed to create book');
             }

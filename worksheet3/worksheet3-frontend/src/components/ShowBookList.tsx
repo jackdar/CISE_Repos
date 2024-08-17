@@ -9,7 +9,7 @@ function ShowBookList() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch('/api/books');
+                const response = await fetch(process.env.NEXT_PUBLIC_BACKEND_URL + '/api/books');
                 if (response.ok) {
                     const data = await response.json();
                     setBooks(data);
@@ -40,7 +40,7 @@ function ShowBookList() {
                     </div>
                     <div className="col-md-11">
                         <Link 
-                            href="/create" 
+                            href="/create-book" 
                             className="btn btn-outline-warning float-right"
                         >
                             + Add New Book
