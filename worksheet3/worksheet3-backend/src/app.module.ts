@@ -12,6 +12,7 @@ export const DB_URI = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PAS
   imports: [
     ConfigModule.forRoot(),
     MongooseModule.forRoot(DB_URI),
+    BookModule,
   ],
   controllers: [AppController],
   providers: [AppService],
