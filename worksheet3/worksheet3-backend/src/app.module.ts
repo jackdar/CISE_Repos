@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
+import { BookModule } from './api/books/book.module';
 import { ConfigModule } from '@nestjs/config';
 require('dotenv').config()
 
